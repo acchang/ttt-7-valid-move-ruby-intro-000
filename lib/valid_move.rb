@@ -20,6 +20,3 @@
       else
         return false
       end
-
-
-    end
