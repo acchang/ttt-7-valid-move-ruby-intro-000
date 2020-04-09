@@ -1,10 +1,4 @@
-def valid_move?(num)
-    if num.between?(0, 8) == true
-      true
-    elsif num.between?(0, 8) == false
-      false
-    end
-  end
+
 
 
   def valid_move?(board,index)
@@ -19,6 +13,14 @@ def valid_move?(num)
         true
       end
     end
+
+    def valid_move?(num)
+        if num.between?(0, 8) == true
+          true
+        elsif num.between?(0, 8) == false
+          false
+        end
+      end
 
 
     if (position_taken?(board, index)) == false && (on_board?(index) == true)
