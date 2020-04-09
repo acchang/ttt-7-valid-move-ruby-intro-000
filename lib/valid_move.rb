@@ -7,7 +7,7 @@ def valid_move?(num)
   end
 
 
-  
+
     def valid_move?(board,index)
       def position_taken?(board,index)
         if (board[index]) == " "
