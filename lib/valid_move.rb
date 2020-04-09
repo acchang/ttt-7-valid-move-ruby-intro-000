@@ -1,7 +1,7 @@
 def on_board?(num)
     if num.between?(0, 8) == true
-      return true
-    else
-      return false
+      true
+    elsif num.between?(0, 8) == false
+      false
     end
   end
